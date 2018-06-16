@@ -1,5 +1,5 @@
 ```js
-<Navbar>Let's see</Navbar>
+<Navbar color= "blue"></Navbar>
 ```
 ```js
 <Navbar></Navbar>

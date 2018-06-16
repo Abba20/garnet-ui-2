@@ -5,7 +5,7 @@ Button component example:
 ```
 
 ```js { "props": { "className": "checks" } }
-<Button>I’m transparent!</Button>
+<Button color="blue">I’m transparent!</Button>
 ```
 
 Button that goes to a link:
