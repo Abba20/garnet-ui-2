@@ -10,8 +10,8 @@ class Footer extends React.Component {
         };
 
         Footer.PropTypes = {
-            children:PropTypes.node.isRequired
-        }
+            children:PropTypes.node.isRequired,
+        };
     
         Footer.defaultProps = {
             color: 'purple',
