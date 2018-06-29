@@ -9,6 +9,11 @@
 	cursor: pointer;
 }
 
+.button[disabled] {
+	opacity: 0.35;
+	cursor: default;
+}
+
 .button + .button {
 	margin-left: 8px;
 }

@@ -29,7 +29,7 @@ Button.defaultProps = {
 };
 
 Button.sizes = {
-  small: '10px',
-  normal: '14px',
-  large: '18px',
+  small: '16px',
+  normal: '18px',
+  large: '20px',
 };
