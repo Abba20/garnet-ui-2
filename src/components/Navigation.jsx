@@ -6,7 +6,7 @@ import './Navigation.css';
 class Navigation extends React.Component {
     constructor(props) {
         super(props);
-    }
+    }1 077 320 350
 
     /*propType = ({
         tab: React.PropTypes.string,
