@@ -2,7 +2,7 @@ Unresponsive navigation bar:
 
 ```js
 <Navigation>
- 
+ {/*
                 <ul>
                     <li><a href = "/">Home</a></li>
                     <li><a href = "/">Contact</a>
@@ -22,8 +22,33 @@ Unresponsive navigation bar:
                         </ul>
                     </li>
                     <li><a href = "/">About</a></li>
-                </ul>
+                </ul>*/}
+    
         
+</Navigation>
+```
+```js
+<Navigation>
+<ul>
+                    <li>tab = "Home"</li>
+                    <li>tab = "Contact"
+                        <ul>
+                            <li>subtab ="Head Office"</li>
+                            <li>subtab ="Kingston Office"</li>
+                            <li>subtab = "Portmore Office"</li>
+                        </ul>
+                    </li>
+
+                    <li>tab = "News"</a></li>
+                    <li>tab = "Partner Companies"
+                        <ul>
+                            <li>subtab ="Company 1"</li>
+                            <li>subtab = "Company 2"</a></li>
+                            <li>subtab = "Company 3"</li>
+                        </ul>
+                    </li>
+                    <li>tab = "About"</li>
+                </ul>
 </Navigation>
 ```
 ```js
